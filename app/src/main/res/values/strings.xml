@@ -10,4 +10,7 @@
     <string name="lose_title">Traffic Jam!</string>
     <string name="lose_message">Out of moves! Traffic is backed up. Want to try again?</string>
     <string name="retry">Try Again</string>
+
+    <!-- Google Play Console Games Services Project ID (Replace with your Play Console Game ID) -->
+    <string name="game_services_project_id">000000000000</string>
 </resources>

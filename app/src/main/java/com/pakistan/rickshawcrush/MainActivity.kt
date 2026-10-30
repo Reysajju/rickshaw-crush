@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity(), RickshawGameView.GameListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Silent automatic Google Play Games ID authentication (No signup/passwords required)
+        com.pakistan.rickshawcrush.engine.PlayGamesManager.initialize(this)
+
         gameView = findViewById(R.id.game_view)
         tvScore = findViewById(R.id.tv_score)
         tvTarget = findViewById(R.id.tv_target)

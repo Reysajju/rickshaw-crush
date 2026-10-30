@@ -19,11 +19,15 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+        debug {
+            isMinifyEnabled = false
         }
     }
 
@@ -35,6 +39,19 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    // Google Play Bundle configuration for .aab export
+    bundle {
+        language {
+            enableSplit = false // Keeps Urdu resources packed inside main bundle
+        }
+        density {
+            enableSplit = true
+        }
+        abi {
+            enableSplit = true
+        }
+    }
 }
 
 dependencies {
@@ -43,4 +60,7 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    
+    // Google Play Games Services V2 (Automatic Google Play Games ID sign-in, zero manual signup)
+    implementation("com.google.android.gms:play-services-games-v2:19.0.0")
 }
