@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="#163625"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layoutDirection="rtl">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مبارک ہو!"
+        android:textColor="#FFD700"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="آپ نے تمام گاڑیاں نکال کر شاہراہ کلیئر کر دی!"
+        android:textColor="#ECF0F1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/dialog_action_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#27AE60"
+        android:text="اگلا مرحلہ کھیلیں"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

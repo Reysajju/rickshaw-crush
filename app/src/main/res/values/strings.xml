@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Rickshaw Crush</string>
+    <string name="label_score">Score</string>
+    <string name="label_target">Target</string>
+    <string name="label_moves">Moves</string>
+    <string name="slogan">Horn Slow Please • Dekh Magar Pyaar Se • Shahrah-e-Pakistan</string>
+    <string name="win_title">Level Cleared!</string>
+    <string name="win_message">You scored %1$d and cleared the road!</string>
+    <string name="next_level">Next Level</string>
+    <string name="lose_title">Traffic Jam!</string>
+    <string name="lose_message">Out of moves! Traffic is backed up. Want to try again?</string>
+    <string name="retry">Try Again</string>
+</resources>

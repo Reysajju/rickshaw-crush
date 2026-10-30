@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رکشہ کرش</string>
+    <string name="label_score">اسکور</string>
+    <string name="label_target">ہدف</string>
+    <string name="label_moves">باقی چالیں</string>
+    <string name="slogan">🚌 ہارن آہستہ بجائیں • دیکھ مگر پیار سے • شاہراہِ پاکستان 🛺</string>
+    <string name="win_title">🎉 مبارک ہو! جیت گئے!</string>
+    <string name="win_message">آپ نے %1$d اسکور حاصل کر کے شاہراہ کو رواں دواں بنا دیا!</string>
+    <string name="next_level">اگلا مرحلہ کھیلیں</string>
+    <string name="lose_title">🛑 ٹریفک جام ہو گیا!</string>
+    <string name="lose_message">چالیں ختم ہو گئیں۔ سڑک پر گاڑیوں کی لمبی قطار لگ گئی ہے۔</string>
+    <string name="retry">دوبارہ کوشش کریں</string>
+</resources>
